@@ -1,0 +1,10 @@
+G:\代码\Code\C#\StudyProject\Gateway.Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\代码\Code\C#\StudyProject\Gateway.Server\bin\Debug\netcoreapp3.1\appsettings.json
+G:\代码\Code\C#\StudyProject\Gateway.Server\bin\Debug\netcoreapp3.1\configuration.json
+G:\代码\Code\C#\StudyProject\Gateway.Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+G:\代码\Code\C#\StudyProject\Gateway.Server\bin\Debug\netcoreapp3.1\Gateway.Server.exe
+G:\代码\Code\C#\StudyProject\Gateway.Server\obj\Debug\netcoreapp3.1\Gateway.Server.AssemblyInfoInputs.cache
+G:\代码\Code\C#\StudyProject\Gateway.Server\obj\Debug\netcoreapp3.1\Gateway.Server.AssemblyInfo.cs
+G:\代码\Code\C#\StudyProject\Gateway.Server\obj\Debug\netcoreapp3.1\Gateway.Server.RazorTargetAssemblyInfo.cache
+G:\代码\Code\C#\StudyProject\Gateway.Server\obj\Debug\netcoreapp3.1\staticwebassets\Gateway.Server.StaticWebAssets.Manifest.cache
+G:\代码\Code\C#\StudyProject\Gateway.Server\obj\Debug\netcoreapp3.1\staticwebassets\Gateway.Server.StaticWebAssets.xml

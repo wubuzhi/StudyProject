@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{60103CC2-04EA-4EB0-B372-0A77A5A74FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Token", "Token", "{2D352C88-F6AC-4115-A909-3B88025B3C95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JWT", "JWT", "{1DD72017-BE48-45FE-AD26-16F087F26BE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.Server", "JWT.Server\JWT.Server.csproj", "{7E344DD5-73C7-4009-9191-06A6E523D72A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.Client", "JWT.Client\JWT.Client.csproj", "{08E6D754-FE8B-444D-B07E-6F65ABDCD365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ocelot网关", "Ocelot网关", "{B47361A1-AD7A-43E2-BA2F-5663A59890EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.Server", "Gateway.Server\Gateway.Server.csproj", "{6720AF7F-8084-4560-894D-CCFB735ACA21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E344DD5-73C7-4009-9191-06A6E523D72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E344DD5-73C7-4009-9191-06A6E523D72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E344DD5-73C7-4009-9191-06A6E523D72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E344DD5-73C7-4009-9191-06A6E523D72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E6D754-FE8B-444D-B07E-6F65ABDCD365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E6D754-FE8B-444D-B07E-6F65ABDCD365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E6D754-FE8B-444D-B07E-6F65ABDCD365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E6D754-FE8B-444D-B07E-6F65ABDCD365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6720AF7F-8084-4560-894D-CCFB735ACA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6720AF7F-8084-4560-894D-CCFB735ACA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6720AF7F-8084-4560-894D-CCFB735ACA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6720AF7F-8084-4560-894D-CCFB735ACA21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D352C88-F6AC-4115-A909-3B88025B3C95} = {60103CC2-04EA-4EB0-B372-0A77A5A74FE8}
+		{1DD72017-BE48-45FE-AD26-16F087F26BE7} = {60103CC2-04EA-4EB0-B372-0A77A5A74FE8}
+		{7E344DD5-73C7-4009-9191-06A6E523D72A} = {1DD72017-BE48-45FE-AD26-16F087F26BE7}
+		{08E6D754-FE8B-444D-B07E-6F65ABDCD365} = {1DD72017-BE48-45FE-AD26-16F087F26BE7}
+		{B47361A1-AD7A-43E2-BA2F-5663A59890EF} = {60103CC2-04EA-4EB0-B372-0A77A5A74FE8}
+		{6720AF7F-8084-4560-894D-CCFB735ACA21} = {B47361A1-AD7A-43E2-BA2F-5663A59890EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3884FFCF-E613-4499-81E7-05A372E0A6BB}
+	EndGlobalSection
+EndGlobal
